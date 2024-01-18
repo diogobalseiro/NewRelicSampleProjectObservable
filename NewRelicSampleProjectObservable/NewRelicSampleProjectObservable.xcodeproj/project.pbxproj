@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F794F3FA2B592FBE004DFC7E /* NewRelicSampleProjectObservableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794F3F92B592FBE004DFC7E /* NewRelicSampleProjectObservableApp.swift */; };
+		F794F3FC2B592FBE004DFC7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794F3FB2B592FBE004DFC7E /* ContentView.swift */; };
+		F794F3FE2B592FBF004DFC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F794F3FD2B592FBF004DFC7E /* Assets.xcassets */; };
+		F794F4012B592FBF004DFC7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F794F4002B592FBF004DFC7E /* Preview Assets.xcassets */; };
+		F794F4082B593022004DFC7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794F4072B593022004DFC7E /* AppDelegate.swift */; };
+		F794F40B2B593111004DFC7E /* NewRelic in Frameworks */ = {isa = PBXBuildFile; productRef = F794F40A2B593111004DFC7E /* NewRelic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F794F3F62B592FBE004DFC7E /* NewRelicSampleProjectObservable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRelicSampleProjectObservable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F794F3F92B592FBE004DFC7E /* NewRelicSampleProjectObservableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicSampleProjectObservableApp.swift; sourceTree = "<group>"; };
+		F794F3FB2B592FBE004DFC7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F794F3FD2B592FBF004DFC7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F794F4002B592FBF004DFC7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F794F4072B593022004DFC7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F794F3F32B592FBE004DFC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F794F40B2B593111004DFC7E /* NewRelic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F794F3ED2B592FBE004DFC7E = {
+			isa = PBXGroup;
+			children = (
+				F794F3F82B592FBE004DFC7E /* NewRelicSampleProjectObservable */,
+				F794F3F72B592FBE004DFC7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F794F3F72B592FBE004DFC7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F794F3F62B592FBE004DFC7E /* NewRelicSampleProjectObservable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F794F3F82B592FBE004DFC7E /* NewRelicSampleProjectObservable */ = {
+			isa = PBXGroup;
+			children = (
+				F794F4072B593022004DFC7E /* AppDelegate.swift */,
+				F794F3F92B592FBE004DFC7E /* NewRelicSampleProjectObservableApp.swift */,
+				F794F3FB2B592FBE004DFC7E /* ContentView.swift */,
+				F794F3FD2B592FBF004DFC7E /* Assets.xcassets */,
+				F794F3FF2B592FBF004DFC7E /* Preview Content */,
+			);
+			path = NewRelicSampleProjectObservable;
+			sourceTree = "<group>";
+		};
+		F794F3FF2B592FBF004DFC7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F794F4002B592FBF004DFC7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F794F3F52B592FBE004DFC7E /* NewRelicSampleProjectObservable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F794F4042B592FBF004DFC7E /* Build configuration list for PBXNativeTarget "NewRelicSampleProjectObservable" */;
+			buildPhases = (
+				F794F3F22B592FBE004DFC7E /* Sources */,
+				F794F3F32B592FBE004DFC7E /* Frameworks */,
+				F794F3F42B592FBE004DFC7E /* Resources */,
+				F794F40C2B5931A5004DFC7E /* NewRelic Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewRelicSampleProjectObservable;
+			packageProductDependencies = (
+				F794F40A2B593111004DFC7E /* NewRelic */,
+			);
+			productName = NewRelicSampleProjectObservable;
+			productReference = F794F3F62B592FBE004DFC7E /* NewRelicSampleProjectObservable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F794F3EE2B592FBE004DFC7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F794F3F52B592FBE004DFC7E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F794F3F12B592FBE004DFC7E /* Build configuration list for PBXProject "NewRelicSampleProjectObservable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F794F3ED2B592FBE004DFC7E;
+			packageReferences = (
+				F794F4092B593111004DFC7E /* XCRemoteSwiftPackageReference "newrelic-ios-agent-spm" */,
+			);
+			productRefGroup = F794F3F72B592FBE004DFC7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F794F3F52B592FBE004DFC7E /* NewRelicSampleProjectObservable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F794F3F42B592FBE004DFC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F794F4012B592FBF004DFC7E /* Preview Assets.xcassets in Resources */,
+				F794F3FE2B592FBF004DFC7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F794F40C2B5931A5004DFC7E /* NewRelic Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "NewRelic Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ARTIFACT_DIR=\"${BUILD_DIR%Build/*}\"\nSCRIPT=`/usr/bin/find \"${SRCROOT}\" \"${ARTIFACT_DIR}\" -type f -name run-symbol-tool | head -n 1`\n/bin/sh \"${SCRIPT}\" \"APP_TOKEN\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F794F3F22B592FBE004DFC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F794F4082B593022004DFC7E /* AppDelegate.swift in Sources */,
+				F794F3FC2B592FBE004DFC7E /* ContentView.swift in Sources */,
+				F794F3FA2B592FBE004DFC7E /* NewRelicSampleProjectObservableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F794F4022B592FBF004DFC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F794F4032B592FBF004DFC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F794F4052B592FBF004DFC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewRelicSampleProjectObservable/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = diogobalseiro.NewRelicSampleProjectObservable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F794F4062B592FBF004DFC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewRelicSampleProjectObservable/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = diogobalseiro.NewRelicSampleProjectObservable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F794F3F12B592FBE004DFC7E /* Build configuration list for PBXProject "NewRelicSampleProjectObservable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F794F4022B592FBF004DFC7E /* Debug */,
+				F794F4032B592FBF004DFC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F794F4042B592FBF004DFC7E /* Build configuration list for PBXNativeTarget "NewRelicSampleProjectObservable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F794F4052B592FBF004DFC7E /* Debug */,
+				F794F4062B592FBF004DFC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F794F4092B593111004DFC7E /* XCRemoteSwiftPackageReference "newrelic-ios-agent-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/newrelic/newrelic-ios-agent-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F794F40A2B593111004DFC7E /* NewRelic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F794F4092B593111004DFC7E /* XCRemoteSwiftPackageReference "newrelic-ios-agent-spm" */;
+			productName = NewRelic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F794F3EE2B592FBE004DFC7E /* Project object */;
+}
